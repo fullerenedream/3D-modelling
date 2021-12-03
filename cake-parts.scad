@@ -2,6 +2,9 @@
 // Tom et Charlotte cake-stacking toy made by Djeco.
 
 
+// requires the Round-Anything library, found here:
+// https://opensourcelibs.com/lib/round-anything
+
 use <Round-Anything/polyround.scad>;
 
 module circleCakeLayer(cakeDiameter, thickness, filletRadius, holeDiameter){
@@ -259,7 +262,8 @@ module squareCakeLayer(length, thickness, filletRadius, holeDiameter){
 //*******************************//
 
 
-// Examples - uncomment the one you want to try
+// Cake parts that fit the cake-stacking toy.
+// Uncomment one at a time.
 
 // large round cake layer
 // circleCakeLayer(cakeDiameter=57, thickness=7, filletRadius=3/2, holeDiameter=11);
@@ -270,7 +274,7 @@ module squareCakeLayer(length, thickness, filletRadius, holeDiameter){
 // square cake layer
 // squareCakeLayer(length=52, thickness=7, filletRadius=3/2, holeDiameter=11);
 
-// wafers: the wafer texture is produced by your slicer settings. Choose a square infill
+// wafers: the wafer texture is produced by your slicer settings. choose a square infill
 // pattern ("grid" in Cura slicer), and set the number of top (shell) layers to zero.
 
 // round wafer
