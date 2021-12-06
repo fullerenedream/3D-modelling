@@ -1,4 +1,4 @@
-// This module makes "cakes" - that is, it makes extra pieces for the
+// These modules make "cakes" - that is, they make extra pieces for the
 // Tom et Charlotte cake-stacking toy made by Djeco.
 
 
