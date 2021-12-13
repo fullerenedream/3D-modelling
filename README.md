@@ -7,7 +7,7 @@ Then you can run the .stl files through a slicer (I use [Cura](https://ultimaker
   
 I wrote  [ball-bearing-fidget.scad](https://github.com/fullerenedream/3D-modelling/blob/main/ball-bearing-fidget/ball-bearing-fidget.scad) and  [cake-parts.scad](https://github.com/fullerenedream/3D-modelling/blob/main/cake-parts/cake-parts.scad). (I created the counting blocks too, but in [TinkerCAD](https://www.tinkercad.com/), not OpenSCAD.)
   
-I have also included stl files, slicer settings and G-code.
+I have also included stl files, slicer settings, and (slicer-generated) G-code.
   
 If you just want a quick look at the 3D models, try opening the stl files in [ViewSTL.com](https://www.viewstl.com/).
   
