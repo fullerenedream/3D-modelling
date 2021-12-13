@@ -1,0 +1,2 @@
+*.scad linguist-detectable
+*.gcode linguist-detectable=false
